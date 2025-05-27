@@ -116,7 +116,7 @@
 <label>Resolución de salida - Alto (px):
   <input type="number" id="outputHeight" value="1920" min="1" max="1920" />
 </label>
-<!-- END -->
+<!-- Fin ajustes de resolucion -->
 
 <button id="start">Procesar Videos</button>
 
@@ -167,7 +167,7 @@
     }
   }
 
-// Funcion para validar la resolucion de los videos sin superar FHD
+// Funcion para validar la resolucion de los videos
 function validateResolution(widthInput, heightInput) {
   // Validar que sean enteros positivos (sin decimales, sin negativos, sin NaN)
   if (!Number.isInteger(widthInput) || !Number.isInteger(heightInput)) {
